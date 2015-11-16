@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    font-family:"黑体","微软雅黑","华文细黑";
+    background-color: #eeeeee;
+}
+.background{
+    background:url("../img/background.png") left top no-repeat;
+    background-size:cover;
+    height: 150px;
+    position: relative;
+
+}
+.background span{
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.background span:first-child{
+    bottom: 42px;
+}
+.background span:last-child{
+    bottom: 5px;
+}
+
+.menu{
+    text-align:center;
+    border-bottom:1px solid #f4f4f4;
+    background-color: white;
+}
+.menu .item{
+    font-size:15px;
+    color:#999;
+    width:16%;
+    line-height:45px;
+    height:45px;
+    box-sizing:border-box;
+    display:inline-block;
+}
+.menu .active{
+    color:#333;
+    border-bottom:4px solid #3399ff;
+}
+.content{
+    background-color: white;
+}
+.city {
+    height: 90px;
+    margin-left: 25px;
+}
+
+.city + .city{
+    border-top:1px solid #f4f4f4;
+}
+
+.img {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    float: left;
+}
+.city span{
+    font-size:15px;
+    color:#666;
+    line-height:90px;
+    padding-left: 20px;
+}
+
+img.arrow {
+    float: right;
+    padding: 35px 20px;
+    height: 20px;
+}
+
+.gray-footer{
+    height:50px;
+}
